@@ -7,83 +7,78 @@
     <link rel="stylesheet" href="css/estilos.css">
     <title>Iriangel Quintero</title>
 </head>
-<body>
+<body data-spy="scroll" data-target="#menu">
+    <div id="home">
     <header> 
         <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-static-top" >
-            <div class="container">
+            <div class="container-md">
                 <a class="navbar-brand" href="#"><h1>IQ</h1></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
+                <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre mi</a>
+                            <a class="nav-link" href="#sobremi">Sobre mi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Aptitudes</a>
+                            <a class="nav-link" href="#aptitudes">Aptitudes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Educación</a>
+                            <a class="nav-link" href="#resume">Resume</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Experiencia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
-        <div class="conatiner">
-            <div class="row" class="jumbotron jumbotron-fluid">
-                <div class="col" class="container">
-                    <h1 class="display-4">Iriangel Quintero</h1>
-                    <p class="lead">Soy frontend Developer </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    Aptitudes
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4">
-                    Portfolio
-                </div>
-                <div class="col-4">
-                    Portfolio
-                </div>
-                <div class="col-4">
-                    Portfolio
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    educacion
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    experiencia
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    contacto
-                </div>
+    <div class="landing">
+        <div class="home-wrap">
+            <div class="home-inner">
+
             </div>
         </div>
-    </main>
+    </div>
+    <div class="min-vw-100" class="jumbotron jumbotron-fluid">
+        <div class="container-md">
+            <h4 class="display-6">Hola,Soy</h3>
+            <h1 class="display-4">Iriangel Quintero</h1>
+            <p class="lead">Diseñadora web</p>
+            <button type="button" class="btn btn-dark">vermás</button>
+        </div>
+    </div>
+    </div>
+    <div id="sobremi">
+        <div class="container-md">
+            <h3 class="heading text-center" >Sobre mi</h3>
+            <div class="row">
+                <div class="col-6">
+                    <ul>
+                        <li><span>nombre:</span>Iriangel Quintero</li>
+                        <li><span>Edad:</span>33</li>
+                        <li><span>Dirección:</span>Buenos Aires,Argentina.</li>
+                        <li><span>Teléfono:</span>+54-11-70354233</li>
+                        <li><span>E-mail:</span>iriangel.quintero@gmail.com</li>
+                        <li>iconos
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est a architecto aliquid optio quasi, quis fuga debitis, veritatis atque illo magnam eligendi nemo nobis provident ratione cumque, ullam labore totam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est a architecto aliquid optio quasi, quis fuga debitis, veritatis atque illo magnam eligendi nemo nobis provident ratione cumque, ullam labore totam.</p>
+                </div>
+            </div>
+            <button type="button" class="btn btn-dark">Descargar CV</button>
+        </div>
+    </div>
     <footer>
     </footer>
     <script src="bootstrap/jquery-3.5.1.slim.min.js"></script>
