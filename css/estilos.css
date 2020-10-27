@@ -12,21 +12,26 @@
     font-display: block;
   }
   
-  [class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-  
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  .icon-adobeillustrator:before,
+  .icon-adobephotoshop:before,
+  .icon-bootstrap:before,
+  .icon-css3:before,
+  .icon-git:before,
+  .icon-github:before,
+  .icon-html5:before,
+  .icon-javascript:before,
+  .icon-jquery:before,
+  .icon-linkedin:before,
+  .icon-mysql:before,
+  .icon-node-dot-js:before,
+  .icon-npm:before,
+  .icon-postgresql:before,
+  .icon-react:before,
+  .icon-sass:before,
+  .icon-database:before{
+    font-family: 'icomoon';
   }
-  
+
   .icon-adobeillustrator:before {
     content: "\e900";
   }
@@ -84,21 +89,44 @@ body{
     font-family: 'Lato', sans-serif; 
     font-size: 16px;
     line-height: 20px;
-
 }
+/*empieza el navegador*/
 .navbar{
     background-color: black;
 }
 .navbar-brand h1{
     color:white;
 }
+.navbar-logo{
+  font-size: 35px;
+  color: white;
+}
 .nav-link{
     color: white;
 }
 .nav-link:hover{
     color:#f4a910;
-    font-weight:700;
-    
+    font-weight:700; 
+}
+/*termina el navegador*/
+
+/*empieza inicio*/
+
+h1{
+  font-size:90px ;
+  color:white;
+}
+h2{
+  font-size: 50px;
+  color:white;
+}
+p.lead{
+  font-size: 30px;
+  color:white;
+}
+.btn-color{
+  background-color:#f4a910;
+  color:white;
 }
 #inicio{
     background-image: url('../img/woman-thinking-with-copy-space.jpg');
@@ -106,11 +134,81 @@ body{
     padding-top: 200px;
     min-height: 650px;
 }
-.btn{
-    background-color:#f4a910;
-    font-weight: 700;
-    border-bottom: transparent;
+#inicio .btn{
+    margin-top: 50px;
 }
+/*termina inicio*/
+
+/*empieza sobre mi*/
 #sobremi{
     background-color: black;
+    overflow: hidden;
 }
+h3.heading{
+  color:white;
+  font-size: 40px;
+  margin: 30px;
+  font-weight: bold;
+}
+
+span.letracolor{
+  color: #f4a910;
+}
+ul{
+  list-style: none;;
+  color:white;
+  padding: 0;
+  font-size: 20px;
+}
+span.letracolor.espacio{
+  margin-right: 10px;
+}
+li{
+  margin-bottom: 20px;
+}
+p{
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.info a.boton{
+  color: #f4a910;
+  margin-right: 10px;
+  font-size: 30px;
+}
+#sobremi .btn{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+/*termina sobre mi*/
+
+/*empieza aptitudes*/
+#aptitudes{
+  background-color: #131313;
+  overflow: hidden;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.carousel-item .icons li.boton{
+
+    color: grey;
+    font-size: 100px;
+    margin:30px 0;
+    line-height: 50px;
+    text-align: center;
+    
+}
+.carousel-item .icons h4{
+  text-align: center;
+  margin: 5px 0;
+  line-height: 100px;
+}
+.carousel-indicators{
+  margin-bottom: 0;
+}
+/*termina aptitudes*/
