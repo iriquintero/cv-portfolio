@@ -11,19 +11,19 @@
 <body data-spy="scroll" data-target="#menu">
     <div id="home">
     <header> 
-        <nav class="navbar navbar-expand-md fixed-top" >
+        <nav class="navbar navbar-expand-md" >
             <div class="container-md">
-                <a class="navbar-brand" href="#"><h1>IQ</h1></a>
+                <a class="navbar-brand navbar-logo" href="#inicio">IQ</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#inicio">Inicio</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#inicio" >Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#sobremi">Sobre mi</a>
+                            <a class="nav-link" href="#sobremi" >Sobre mi</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#aptitudes">Aptitudes</a>
@@ -32,7 +32,7 @@
                             <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#resume">Resume</a>
+                            <a class="nav-link" href="#resume" >Resume</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contacto">Contacto</a>
@@ -42,38 +42,77 @@
             </div>
         </nav>
     </header>
-    <div id="inicio">
+    <section id="inicio">
         <div class="min-vw-100" class="jumbotron jumbotron-fluid">
             <div class="container-md">
-                <h3>Hola,Soy</h3>
+                <h2>Hola,Soy</h2>
                 <h1>Iriangel Quintero</h1>
-                <p>Diseñadora web</p>
-                <button type="button" class="btn">vermás</button>
+                <p class="lead">Diseñadora web</p>
+                <a class="btn btn-color btn-lg" href="#sobremi" role="button">ver más</a>
             </div>
         </div>
     </div>
     <div id="sobremi">
         <div class="container-md">
-            <h3 class="heading text-center" >Sobre mi</h3>
+            <h3 class="heading text-center" >Sobre <span class="letracolor">mi</span></h3>
             <div class="row">
                 <div class="col-6">
-                    <ul>
-                        <li><span>nombre:</span>Iriangel Quintero</li>
-                        <li><span>Edad:</span>33</li>
-                        <li><span>Dirección:</span>Buenos Aires,Argentina.</li>
-                        <li><span>Teléfono:</span>+54-11-70354233</li>
-                        <li><span>E-mail:</span>iriangel.quintero@gmail.com</li>
-                        <li>iconos
-                        </li>
+                    <ul class="info">
+                        <li><span class="letracolor espacio">Nombre:</span>Iriangel Quintero</li>
+                        <li><span class="letracolor espacio">Edad:</span>33</li>
+                        <li><span class="letracolor espacio">Dirección:</span>Buenos Aires,Argentina.</li>
+                        <li><span class="letracolor espacio">Teléfono:</span>+54-11-70354233</li>
+                        <li><span class="letracolor espacio">E-mail:</span>iriangel.quintero@gmail.com</li>
+                        <li><a class="boton icon-github" href="https://github.com/iriquintero" target="_blank"></a><a class="boton icon-linkedin" href="https://www.linkedin.com/in/iriangel-quintero-a63533189/" target="_blank"></a></li>
                     </ul>
                 </div>
                 <div class="col-6">
-                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est a architecto aliquid optio quasi, quis fuga debitis, veritatis atque illo magnam eligendi nemo nobis provident ratione cumque, ullam labore totam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est a architecto aliquid optio quasi, quis fuga debitis, veritatis atque illo magnam eligendi nemo nobis provident ratione cumque, ullam labore totam.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est a architecto aliquid optio quasi, quis fuga debitis, veritatis atque illo magnam eligendi nemo nobis provident ratione cumque, ullam labore totam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est a architecto aliquid optio quasi, quis fuga debitis, veritatis atque illo magnam eligendi nemo nobis provident ratione cumque, ullam labore totam.</p>
                 </div>
             </div>
-            <button type="button" class="btn btn-dark">Descargar CV</button>
+            <button type="button" class="btn btn-color btn-md">Descargar CV</button>
         </div>
-    </div>
+    </section>
+    <section id="aptitudes">
+        <div class="container-md">
+            <h3 class="heading text-center" >Mis <span class="letracolor">Aptitudes</span></h3>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                <div class="carousel-inner">
+                    <div  class="carousel-item active">
+                        <ul class="icons">
+                            <li class="boton icon-html5"><h4>HTML</h4></li>
+                            <li class="boton icon-css3"><h4>CSS</h4></li>
+                            <li class="boton icon-javascript"><h4>JavaScript</h4></li>
+                            <li class="boton icon-git"><h4>Git</li>
+                            <li class="boton icon-react"><h4>React.js</h4></li>
+                        </ul>
+                    </div>
+                    <div class="carousel-item">
+                        <ul class="icons">
+                            <li class="boton icon-bootstrap"><h4>Bootstrap</h4></li>
+                            <li class="boton icon-adobephotoshop"><h4>Photoshop</h4></li>
+                            <li class="boton icon-adobeillustrator"><h4>Illustrator</h4></li>
+                            <li class="boton icon-jquery"><h4>Jquery</h4></li>
+                            <li class="boton icon-node-dot-js"><h4>Node.js</h4></li>
+                        </ul>
+                    </div>
+                    <div class="carousel-item">
+                        <ul class="icons">
+                            <li class="boton icon-postgresql"><h4>SQL</h4></li>
+                            <li class="boton icon-sass"><h4>Sass</h4></li>
+                            <li class="boton icon-database"><h4>Base de Datos</h4></li>
+                            <li class="boton icon-mysql"><h4>MySQL</h4></li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
     <footer>
     </footer>
     <script src="bootstrap/jquery-3.5.1.slim.min.js"></script>
