@@ -30,6 +30,7 @@
   .icon-sass:before,
   .icon-database:before{
     font-family: 'icomoon';
+    padding-right: 5px;
   }
 
   .icon-adobeillustrator:before {
@@ -207,3 +208,9 @@ p{
   margin-bottom: 0;
 }
 /*termina aptitudes*/
+
+/*comienza portfolio*/
+#portfolio{
+  background-color: black;
+  overflow: hidden;
+}
