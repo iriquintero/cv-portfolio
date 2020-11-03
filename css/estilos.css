@@ -91,7 +91,7 @@ body{
     font-size: 16px;
     line-height: 20px;
 }
-/*empieza el navegador*/
+/*inicio de navegador*/
 .navbar{
     background-color:#f4a910;
 }
@@ -102,7 +102,8 @@ body{
   font-size: 35px;
   color: white;
 }
-/*termina el navegador*/
+
+/*fin de navegador*/
 
 /*empieza inicio*/
 
@@ -134,7 +135,7 @@ p.lead{
 }
 /*termina inicio*/
 
-/*empieza sobre mi*/
+/*inicio de sobre mi*/
 #sobremi{
     background-color: black;
     overflow: hidden;
@@ -177,9 +178,9 @@ p{
   margin-bottom: 40px;
   
 }
-/*termina sobre mi*/
+/*fin de sobre mi*/
 
-/*empieza aptitudes*/
+/*inicio de aptitudes*/
 #aptitudes{
   background-color: #131313;
   overflow: hidden;
@@ -207,10 +208,88 @@ p{
 .carousel-indicators{
   margin-bottom: 0;
 }
-/*termina aptitudes*/
+/*fin de aptitudes*/
 
-/*comienza portfolio*/
+/*inicio de portfolio*/
 #portfolio{
   background-color: black;
   overflow: hidden;
 }
+/*fin de portfolio*/
+/*inicio de resume*/
+#resume{
+  background-color: #131313;
+  overflow: hidden;
+ }
+ #resume h4{
+   color:white;
+ }
+ @import url("https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700");
+ 
+.timeline-item {
+  padding: 3em 2em 2em;
+  position: relative;
+  color: rgba(244, 169, 16, 0.7);
+  border-left: 2px solid rgba(244, 169, 16, 0.3);
+}
+.timeline-item p {
+  font-size: 1rem;
+}
+.timeline-item::before {
+  content: attr(date-is);
+  position: absolute;
+  left: 2em;
+  font-weight: bold;
+  top: 1em;
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: white;
+}
+.timeline-item::after {
+  width: 10px;
+  height: 10px;
+  display: block;
+  top: 1em;
+  position: absolute;
+  left: -7px;
+  border-radius: 10px;
+  content: '';
+  border: 2px solid rgba(244, 169, 16, 0.3);
+  background: #131313;
+}
+.timeline-item:last-child {
+  -o-border-image: linear-gradient(to bottom, rgba(244, 169, 16, 0.3) 60%, rgba(244, 169, 16, 0)) 1 100%;
+     border-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(244, 169, 16, 0.3)), to(rgba(244, 169, 16, 0))) 1 100%;
+     border-image: linear-gradient(to bottom, rgba(244, 169, 16, 0.3) 60%, rgba(244, 169, 16, 0)) 1 100%;
+}
+/*fin de resume*/
+/*inicio de contacto*/
+#contacto{
+  background-color: black;
+  overflow: hidden;
+}
+/*fin de contacto*/
+/*inicio de footer*/
+footer{
+  background-color: #131313;
+  text-align: center;
+  padding: 20px 0;
+}
+footer a{
+  color: gray;
+  text-decoration: none;
+  font-size: 30px;
+
+}
+footer a:hover{
+  text-decoration:none;
+  color:gray;
+}
+footer p{
+  color: gray;
+  margin-bottom: 0;
+}
+
+/*fin de footer*/
