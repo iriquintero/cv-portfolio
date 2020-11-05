@@ -153,6 +153,12 @@ p.lead{
     padding-top: 200px;
     min-height: 650px;
 }
+.container-md .typedlead{
+   font-style:normal;
+   font-weight: bold;
+   color:#f4a910;
+}
+
 #inicio .btn{
     margin-top: 50px;
     margin-bottom: 30px;
@@ -354,7 +360,19 @@ p{
   border:none;
 }
 
+.flecha{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  right: 0;
+}
+a.flechaicon{
+  color:#f4a910;
+  text-decoration: none;
+  font-size: 30px;
+}
 /*fin de contacto*/
+
 /*inicio de footer*/
 footer{
   background-color: #131313;
