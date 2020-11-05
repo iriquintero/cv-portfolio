@@ -204,25 +204,25 @@
     <section id="contacto">
         <div class="container-md">
             <h3 class="heading text-center" ><span class="letracolor">Contactame</span></h3>
-            <div class="contacto-info">
-                <div class="direccion icon-location"><h4></h4></div>
-                <div class="telefono icon-phone"></div>
-                <div class="email icon-envelop "></div>
+            <div class="contacto-info card-deck">
+                <div class="card infocont icon-location"><p>San Martín, Buenos Aires</p></div>
+                <div class="card infocont icon-phone"><p>+54-11-70354233</p></div>
+                <div class="card infocont icon-envelop "><p>iriangel.quintero@gmail.com</p></div>
             </div>
             <form class="form-contacto">
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label class="textlabel" for="inputnombre">Nombre y Apellido:</label>
-                        <input type="text" class="form-control" id="inputnombre" placeholder="Escribir tú Nombre y Apellido">
+                        <input type="text" class="form-control" id="inputnombre" required placeholder="Escribir tú Nombre y Apellido">
                     </div>
                     <div class="form-group col-md-6">
                         <label class="textlabel" for="inputEmail4">E-mail:</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="ejemplo@gmail.com">
+                        <input type="email" class="form-control" id="inputEmail4" required placeholder="ejemplo@gmail.com">
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="textlabel" for="exampleFormControlTextarea1">Mensaje:</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribir un mensaje"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required placeholder="Escribir un mensaje"></textarea>
                 </div>
                 <button type="submit" class="enviar btn btn-color btn-md">Enviar</button>
             </form>
