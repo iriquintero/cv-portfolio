@@ -201,7 +201,10 @@ p{
   margin-top: 20px;
   margin-bottom: 40px;
   font-size: 20px;
-  
+}
+#sobremi .container-md{
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 /*fin de sobre mi*/
 
@@ -209,6 +212,10 @@ p{
 #aptitudes{
   background-color: #131313;
   overflow: hidden;
+}
+#aptitudes .container-md{
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .icons{
   display: flex;
@@ -240,17 +247,24 @@ p{
   background-color: black;
   overflow: hidden;
 }
+#portfolio .container-md{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 /*fin de portfolio*/
 /*inicio de resume*/
 #resume{
   background-color: #131313;
   overflow: hidden;
-  padding: 20px 0;
   box-sizing: border-box;
  }
  #resume h4{
    color:white;
  }
+ #resume .container-md{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
  .resume{
    padding-left: 20px;
  }
@@ -300,13 +314,40 @@ p{
   background-color: black;
   overflow: hidden;
 }
+#contacto .container-md{
+  margin-bottom: 40px;
+}
+.contacto-info{
+  text-align: center;
+  overflow: hidden;
+  margin: 40px 30px ;
+  box-sizing: border-box;
+}
+.infocont{
+  color: white;
+  background-color:#131313;
+  border-radius: 5px;
+  padding-top: 18px;
+  box-sizing: border-box;
+  margin: 20px;
+}
+.contacto-info .icon-location,
+.contacto-info .icon-phone,
+.contacto-info .icon-envelop{
+  color: #f4a910;
+  font-size: 30px;
+}
+.contacto-info p{
+  line-height: 40px;
+  font-size: 16px;
+}
 .textlabel{
   color: white;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
 }
 .form-contacto{
-  padding:0 50px 20px;
+  margin:0 50px;
 }
 .form-control{
   background-color:#131313;
