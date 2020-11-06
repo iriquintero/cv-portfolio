@@ -173,7 +173,6 @@ p.lead{
     background-size: cover;
     padding-top: 200px;
     min-height: 650px;
-    width: 100%;
     overflow: hidden;
 }
 .container-md .typedlead{
@@ -258,17 +257,15 @@ p{
 .icons{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-content: center;
 }
 .carousel-item .icons li.boton{
-
     color: grey;
     font-size: 100px;
     margin:30px 0;
     line-height: 50px;
     text-align: center;
-    
 }
 .carousel-item .icons h4{
   text-align: center;
@@ -428,11 +425,13 @@ footer p{
 /*fin de footer*/
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+
+  body{
+    padding-top: 50px;
+  }
+
   #inicio{
     background-image: url('../img/imagenpequeña.jpg');
-    background-size: cover;
-    padding-top: 200px;
-    min-height: 500px;
   }
   h1{
     font-size:50px ;
@@ -467,11 +466,13 @@ footer p{
   .form-contacto{
     margin:0 20px;
   }
-
 }
 
 /* Small devices (landscape phones, less than 768px)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+  body{
+    padding-top: 50px;
+  }
   #inicio{
     background-image: url('../img/imagenpequeña.jpg');
   }
