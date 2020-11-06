@@ -118,7 +118,7 @@ body{
     font-size: 16px;
     line-height: 20px;
     background-color: black;
-    padding-top: 70px;
+    /* padding-top: 70px; */
 }
 /*inicio de navegador*/
 header{
@@ -172,7 +172,7 @@ p.lead{
     background-image: url('../img/imagengrande.jpg');
     background-size: cover;
     padding-top: 200px;
-    min-height: 650px;
+    min-height: 100vh;
     overflow: hidden;
 }
 .container-md .typedlead{
@@ -426,14 +426,14 @@ footer p{
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 
-  body{
+  /* body{
     padding-top: 50px;
-  }
+  } */
 
   #inicio{
-    background-image: url('../img/imagenpequeña.jpg');
-    min-height: 100vh;
-    background-size: cover ;
+    background-image: url('../img/imagenpequeña2.jpg');
+    padding-top: 400px;
+    overflow: hidden;
   }
   h1{
     font-size:50px ;
@@ -442,7 +442,7 @@ footer p{
     font-size: 30px;
   }
   p.lead{
-    font-size: 20px;
+    font-size: 25px;
   } 
   h3.heading{
     font-size: 35px;
