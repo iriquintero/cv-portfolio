@@ -115,8 +115,15 @@ body{
     font-size: 16px;
     line-height: 20px;
     background-color: black;
+    padding-top: 70px;
 }
 /*inicio de navegador*/
+header{
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 1000;
+}
 .navbar{
     background-color:#f4a910;
 }
@@ -126,6 +133,16 @@ body{
 .navbar-logo{
   font-size: 35px;
   color: white;
+}
+/*efectos de menú*/
+.headroom{
+  transition: transform .3s ease;
+}
+.headroom--pinned{
+  transform: translateY(0%);
+}
+.headroom--unpinned{
+  transform: translateY(-100%);
 }
 
 /*fin de navegador*/
