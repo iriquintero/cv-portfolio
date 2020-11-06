@@ -108,7 +108,10 @@
   .icon-arrow-up2:before {
     content: "\ea3a";
   }
-  
+
+html{
+    scroll-behavior: smooth;
+  }
 
 body{
     font-family: 'Lato', sans-serif; 
@@ -170,6 +173,8 @@ p.lead{
     background-size: cover;
     padding-top: 200px;
     min-height: 650px;
+    width: 100%;
+    overflow: hidden;
 }
 .container-md .typedlead{
    font-style:normal;
@@ -220,7 +225,16 @@ p{
   color: #f4a910;
   margin-right: 10px;
   font-size: 30px;
+  text-decoration: none;
 }
+.info a.boton:hover{
+  color: white;
+  font-size: 33px;
+  transition-property: color, font-size;
+  transition-duration: 0.5s , 0.5s;
+  transition-delay: 0.3s;
+}
+
 #sobremi .btn{
   margin-top: 20px;
   margin-bottom: 40px;
@@ -377,7 +391,6 @@ p{
   background-color:#212121;
   border:none;
 }
-
 .flecha{
   display: flex;
   flex-direction: row;
