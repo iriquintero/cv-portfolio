@@ -1,3 +1,4 @@
+//inicio typedscript
 const typed= new Typed('.typed',{
     strings:['<i class="typedlead">Diseñadora Web</i>',
     '<i class="typedlead">Frontend Developer</i>',
@@ -15,3 +16,12 @@ const typed= new Typed('.typed',{
     cursorChar: '|',//caracter para el cursor.
     contentType: 'html', //html o null para texto sin formato
 });
+
+
+//header menú
+$(function(){
+    var header = document.getElementById('header');
+    var headroom = new Headroom(header);
+    headroom.init();
+});
+
